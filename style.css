@@ -586,6 +586,11 @@ footer.blurry {
   margin-bottom: calc(var(--space-m) - 0.5rem);
   width: 80%;
 }
+@media (max-width: 991px) {
+  .hero-h .hero-h__desc {
+    width: 100%;
+  }
+}
 .hero-h .hero-h__value {
   display: flex;
   flex-direction: row;

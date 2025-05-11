@@ -780,6 +780,9 @@ footer.blurry {
     margin-top: calc($space-m);
     margin-bottom: calc($space-m - 0.5rem);
     width: 80%;
+    @include device-below(md) {
+      width: 100%;
+    }
   }
   #{&}__value {
     display: flex;
