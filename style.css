@@ -584,6 +584,7 @@ footer.blurry {
 .hero-h .hero-h__desc {
   margin-top: calc(var(--space-m));
   margin-bottom: calc(var(--space-m) - 0.5rem);
+  width: 80%;
 }
 .hero-h .hero-h__value {
   display: flex;
