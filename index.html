@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properly</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/vendor/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/vendor/css/aos/aos.css">
+    <link rel="stylesheet" href="./assets/vendor/css/splide/splide-core.min.css">
+    <link rel="stylesheet" href="./assets/vendor/css/splide/splide.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/img/favicon.svg" type="image/x-icon">
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo-wrap">
+                <a href="/" class="logo-link" data-aos="zoom-in">
+                    <img src="./assets/img/logo.svg" alt="main-logo" class="logo-img">
+                </a>
+            </div>
+            <div class="menu-wrap">
+                <nav class="nav header__nav">
+                    <!-- desktop menu -->
+                    <div class="header__menu" data-aos="fade-left" >
+                        <ul id="main-menu" class="menu main-menu">
+                            <li class="menu-item menu-item-1 active">
+                                <a href="#about-us">ABOUT US</a>
+                            </li>
+                            <li class="menu-item menu-item-2">
+                                <a href="#portfolio">PORTFOLIO</a>
+                            </li>
+                            <li class="menu-item menu-item-3">
+                                <a href="#information">INFORMATION</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- mobile menu -->
+                    <div class="header__mobile-menu">
+                        <div class="header__btn-md">
+                            <div class="hamburger" id="hamburger">
+                                <span class="line"></span>
+                                <span class="line"></span>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        <div class="header__mobile-menu__wrap">
+                            <ul id="mobile-menu" class="header__menu-md">
+                                <li class="menu-item menu-item-1 active">
+                                    <a href="#about-us">ABOUT US</a>
+                                </li>
+                                <li class="menu-item menu-item-2">
+                                    <a href="#portfolio">PORTFOLIO</a>
+                                </li>
+                                <li class="menu-item menu-item-3">
+                                    <a href="#information">INFORMATION</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main >
+        <section class="hero-h">
+            <div class="container">
+                <div class="hero-h__left">
+                    <h1 class="hero-h__title" data-aos="fade-down">
+                        Let's Find The Most <strong>Suitable Home</strong> For You !
+                    </h1>
+                    <p class="hero-h__desc" data-aos="fade-up">We offer the best resident for you with a strategic location and the best home developer. Find your home right now !</p>
+                    <ol class="hero-h__value">
+                        <li class="hero-h__value__item" data-aos="fade-up" data-aos-delay="100">
+                            <p class="hero-h__value__number"><span>29</span></p>
+                            <p class="hero-h__value__text">Success Partners</p>
+                        </li>
+                        <li class="hero-h__value__item" data-aos="fade-up" data-aos-delay="200">
+                            <p class="hero-h__value__number"><span>92</span>+</p>
+                            <p class="hero-h__value__text">Strategic Location</p>
+                        </li>
+                        <li class="hero-h__value__item" data-aos="fade-up" data-aos-delay="300">
+                            <p class="hero-h__value__number"><span>120</span>K</p>
+                            <p class="hero-h__value__text">Satisfying Customer</p>
+                        </li>
+                    </ol>
+
+                    <div class="hero-h__wrap-search" data-aos="fade-up" data-aos-delay="400">
+                        <form action="#">
+                            <div class="hero-h__input">
+                                <div class="hero-h__input__logo">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.4" d="M20.62 8.45C19.57 3.83 15.54 1.75 12 1.75C12 1.75 12 1.75 11.99 1.75C8.45997 1.75 4.41997 3.82 3.36997 8.44C2.19997 13.6 5.35997 17.97 8.21997 20.72C9.27997 21.74 10.64 22.25 12 22.25C13.36 22.25 14.72 21.74 15.77 20.72C18.63 17.97 21.79 13.61 20.62 8.45Z" fill="#429BF4"/>
+                                        <path d="M12 13.46C13.7397 13.46 15.15 12.0497 15.15 10.31C15.15 8.57034 13.7397 7.16003 12 7.16003C10.2603 7.16003 8.84998 8.57034 8.84998 10.31C8.84998 12.0497 10.2603 13.46 12 13.46Z" fill="#429BF4"/>
+                                    </svg>
+                                </div>
+                                <div class="hero-h__input__wrap">
+                                    <label for="input_loc">Location</label>
+                                    <input id="input_loc" type="text" name="" class="hero-h__input" placeholder="Type your location">
+                                </div>
+                            </div>
+                            <div class="hero-h__line"></div>
+                            <div class="hero-h__input">
+                                <div class="hero-h__input__logo">
+                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.4" d="M10.57 2.81998L3.64002 8.36997C2.86002 8.98997 2.36002 10.3 2.53002 11.28L3.86002 19.24C4.10002 20.66 5.46002 21.81 6.90002 21.81H18.1C19.53 21.81 20.9 20.65 21.14 19.24L22.47 11.28C22.63 10.3 22.13 8.98997 21.36 8.36997L14.43 2.82996C13.36 1.96996 11.63 1.96998 10.57 2.81998Z" fill="#429BF4"/>
+                                        <path d="M12.5 15.5C13.8807 15.5 15 14.3807 15 13C15 11.6193 13.8807 10.5 12.5 10.5C11.1193 10.5 10 11.6193 10 13C10 14.3807 11.1193 15.5 12.5 15.5Z" fill="#429BF4"/>
+                                     </svg>
+                                </div>
+                                <div class="hero-h__input__wrap">
+                                    <label for="input_type">Type</label>
+                                    <input id="input_type" type="text" name="" class="hero-h__input" placeholder="Select your type">
+                                </div>
+                            </div>
+                            <button id="submit" class="hero-h__input__submit" type="submit">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.16666 16.666C13.3088 16.666 16.6667 13.3082 16.6667 9.16601C16.6667 5.02388 13.3088 1.66602 9.16666 1.66602C5.02452 1.66602 1.66666 5.02388 1.66666 9.16601C1.66666 13.3082 5.02452 16.666 9.16666 16.666Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M15.7749 17.2413C16.2166 18.5747 17.2249 18.708 17.9999 17.5413C18.7083 16.4747 18.2416 15.5997 16.9583 15.5997C16.0083 15.5913 15.4749 16.333 15.7749 17.2413Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>                                    
+                                <span>Search</span>
+                            </button>   
+                        </form>
+                    </div>
+                </div>
+                <div class="hero-h__right" data-aos="fade-up">
+                    <div class="hero-h__pin hero-h__pin-1 active-pin">
+                        <img src="./assets/img/thumb_place.png" alt="" class="pin-thumb">
+                        <div class="hero-h__pin__wrap">
+                            <img src="/assets/img/item-place.jpg" alt="" class="hero-h__pin__img">
+                            <div class="hero-h__pin__content">
+                                <p class="hero-h__pin__loc">Pandeyan, Yogyakarta</p>
+                                <p class="hero-h__pin__name">Palm Tree Resident</p>
+                                <div class="hero-h__pin__wrap-detail">
+                                    <div class="hero-h__pin__detail"> 
+                                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.245 14.0072L12.45 14.8022L11.9175 14.2697L12.7125 13.4747L11.2575 12.0197L10.4625 12.8147L9.93 12.2822L10.725 11.4872L9.27 10.0322L8.475 10.8272L7.9425 10.2947L8.7375 9.49971L7.275 8.03721L6.48 8.83221L5.9475 8.29971L6.7425 7.50471L5.2875 6.04971L4.4925 6.84471L3.96 6.31221L4.755 5.51721L3 3.76221V14.2622C3 15.0872 3.675 15.7622 4.5 15.7622H15L13.245 14.0072ZM5.25 13.5122V9.19221L9.57 13.5122H5.25Z" fill="#A8AEE5"/>
+                                        </svg>
+                                        <p>120 M²</p>
+                                    </div>
+                                    <div class="hero-h__pin__detail"> 
+                                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.25 7.51221C6.07843 7.51221 6.75 6.84063 6.75 6.01221C6.75 5.18378 6.07843 4.51221 5.25 4.51221C4.42157 4.51221 3.75 5.18378 3.75 6.01221C3.75 6.84063 4.42157 7.51221 5.25 7.51221Z" fill="#A8AEE5"/>
+                                            <path d="M15 10.5122V4.38471C15 3.21471 14.0475 2.26221 12.8775 2.26221C12.315 2.26221 11.775 2.48721 11.3775 2.88471L10.44 3.82221C10.32 3.78471 10.1925 3.76221 10.0575 3.76221C9.7575 3.76221 9.48 3.85221 9.2475 4.00221L11.3175 6.07221C11.4675 5.83971 11.5575 5.56221 11.5575 5.26221C11.5575 5.12721 11.535 5.00721 11.505 4.87971L12.4425 3.94221C12.555 3.82971 12.7125 3.76221 12.8775 3.76221C13.2225 3.76221 13.5 4.03971 13.5 4.38471V10.5122H8.3625C8.1375 10.3547 7.935 10.1747 7.7475 9.97221L6.6975 8.80971C6.555 8.65221 6.375 8.52471 6.18 8.43471C5.9475 8.32221 5.6925 8.26221 5.43 8.26221C4.5 8.26971 3.75 9.01971 3.75 9.94971V10.5122H1.5V15.0122C1.5 15.8372 2.175 16.5122 3 16.5122C3 16.9247 3.3375 17.2622 3.75 17.2622H14.25C14.6625 17.2622 15 16.9247 15 16.5122C15.825 16.5122 16.5 15.8372 16.5 15.0122V10.5122H15ZM15 15.0122H3V12.0122H15V15.0122Z" fill="#A8AEE5"/>
+                                        </svg>
+                                        <p>2 Room</p>
+                                    </div>
+                                    <div class="hero-h__pin__detail"> 
+                                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.5 9.76221C16.5 8.93721 15.825 8.26221 15 8.26221V6.01221C15 5.18721 14.325 4.51221 13.5 4.51221H4.5C3.675 4.51221 3 5.18721 3 6.01221V8.26221C2.175 8.26221 1.5 8.93721 1.5 9.76221V13.5122H2.4975L3 15.0122H3.75L4.2525 13.5122H13.755L14.25 15.0122H15L15.5025 13.5122H16.5V9.76221ZM13.5 8.26221H9.75V6.01221H13.5V8.26221ZM4.5 6.01221H8.25V8.26221H4.5V6.01221ZM3 9.76221H15V12.0122H3V9.76221Z" fill="#A8AEE5"/>
+                                        </svg>
+                                        <p>4 Room</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-h__pin hero-h__pin-2">
+                        <img src="./assets/img/thumb_place.png" alt="" class="pin-thumb">
+                        <div class="hero-h__pin__wrap">
+                            <img src="/assets/img/item-place.jpg" alt="" class="hero-h__pin__img">
+                            <div class="hero-h__pin__content">
+                                <p class="hero-h__pin__loc">Pandeyan, Yogyakarta #2</p>
+                                <p class="hero-h__pin__name">Palm Tree Resident</p>
+                                <div class="hero-h__pin__wrap-detail">
+                                    <div class="hero-h__pin__detail"> 
+                                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.245 14.0072L12.45 14.8022L11.9175 14.2697L12.7125 13.4747L11.2575 12.0197L10.4625 12.8147L9.93 12.2822L10.725 11.4872L9.27 10.0322L8.475 10.8272L7.9425 10.2947L8.7375 9.49971L7.275 8.03721L6.48 8.83221L5.9475 8.29971L6.7425 7.50471L5.2875 6.04971L4.4925 6.84471L3.96 6.31221L4.755 5.51721L3 3.76221V14.2622C3 15.0872 3.675 15.7622 4.5 15.7622H15L13.245 14.0072ZM5.25 13.5122V9.19221L9.57 13.5122H5.25Z" fill="#A8AEE5"/>
+                                        </svg>
+                                        <p>120 M²</p>
+                                    </div>
+                                    <div class="hero-h__pin__detail"> 
+                                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.25 7.51221C6.07843 7.51221 6.75 6.84063 6.75 6.01221C6.75 5.18378 6.07843 4.51221 5.25 4.51221C4.42157 4.51221 3.75 5.18378 3.75 6.01221C3.75 6.84063 4.42157 7.51221 5.25 7.51221Z" fill="#A8AEE5"/>
+                                            <path d="M15 10.5122V4.38471C15 3.21471 14.0475 2.26221 12.8775 2.26221C12.315 2.26221 11.775 2.48721 11.3775 2.88471L10.44 3.82221C10.32 3.78471 10.1925 3.76221 10.0575 3.76221C9.7575 3.76221 9.48 3.85221 9.2475 4.00221L11.3175 6.07221C11.4675 5.83971 11.5575 5.56221 11.5575 5.26221C11.5575 5.12721 11.535 5.00721 11.505 4.87971L12.4425 3.94221C12.555 3.82971 12.7125 3.76221 12.8775 3.76221C13.2225 3.76221 13.5 4.03971 13.5 4.38471V10.5122H8.3625C8.1375 10.3547 7.935 10.1747 7.7475 9.97221L6.6975 8.80971C6.555 8.65221 6.375 8.52471 6.18 8.43471C5.9475 8.32221 5.6925 8.26221 5.43 8.26221C4.5 8.26971 3.75 9.01971 3.75 9.94971V10.5122H1.5V15.0122C1.5 15.8372 2.175 16.5122 3 16.5122C3 16.9247 3.3375 17.2622 3.75 17.2622H14.25C14.6625 17.2622 15 16.9247 15 16.5122C15.825 16.5122 16.5 15.8372 16.5 15.0122V10.5122H15ZM15 15.0122H3V12.0122H15V15.0122Z" fill="#A8AEE5"/>
+                                        </svg>
+                                        <p>2 Room</p>
+                                    </div>
+                                    <div class="hero-h__pin__detail"> 
+                                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.5 9.76221C16.5 8.93721 15.825 8.26221 15 8.26221V6.01221C15 5.18721 14.325 4.51221 13.5 4.51221H4.5C3.675 4.51221 3 5.18721 3 6.01221V8.26221C2.175 8.26221 1.5 8.93721 1.5 9.76221V13.5122H2.4975L3 15.0122H3.75L4.2525 13.5122H13.755L14.25 15.0122H15L15.5025 13.5122H16.5V9.76221ZM13.5 8.26221H9.75V6.01221H13.5V8.26221ZM4.5 6.01221H8.25V8.26221H4.5V6.01221ZM3 9.76221H15V12.0122H3V9.76221Z" fill="#A8AEE5"/>
+                                        </svg>
+                                        <p>4 Room</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="hero-h__pin hero-h__pin-3">
+                        <img src="./assets/img/thumb_place.png" alt="" class="pin-thumb">
+                        <div class="hero-h__pin__wrap">
+                            <img src="/assets/img/item-place.jpg" alt="" class="hero-h__pin__img">
+                            <div class="hero-h__pin__content">
+                                <p class="hero-h__pin__loc">Pandeyan, Yogyakarta #3</p>
+                                <p class="hero-h__pin__name">Palm Tree Resident</p>
+                                <div class="hero-h__pin__wrap-detail">
+                                    <div class="hero-h__pin__detail"> 
+                                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M13.245 14.0072L12.45 14.8022L11.9175 14.2697L12.7125 13.4747L11.2575 12.0197L10.4625 12.8147L9.93 12.2822L10.725 11.4872L9.27 10.0322L8.475 10.8272L7.9425 10.2947L8.7375 9.49971L7.275 8.03721L6.48 8.83221L5.9475 8.29971L6.7425 7.50471L5.2875 6.04971L4.4925 6.84471L3.96 6.31221L4.755 5.51721L3 3.76221V14.2622C3 15.0872 3.675 15.7622 4.5 15.7622H15L13.245 14.0072ZM5.25 13.5122V9.19221L9.57 13.5122H5.25Z" fill="#A8AEE5"/>
+                                        </svg>
+                                        <p>120 M²</p>
+                                    </div>
+                                    <div class="hero-h__pin__detail"> 
+                                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.25 7.51221C6.07843 7.51221 6.75 6.84063 6.75 6.01221C6.75 5.18378 6.07843 4.51221 5.25 4.51221C4.42157 4.51221 3.75 5.18378 3.75 6.01221C3.75 6.84063 4.42157 7.51221 5.25 7.51221Z" fill="#A8AEE5"/>
+                                            <path d="M15 10.5122V4.38471C15 3.21471 14.0475 2.26221 12.8775 2.26221C12.315 2.26221 11.775 2.48721 11.3775 2.88471L10.44 3.82221C10.32 3.78471 10.1925 3.76221 10.0575 3.76221C9.7575 3.76221 9.48 3.85221 9.2475 4.00221L11.3175 6.07221C11.4675 5.83971 11.5575 5.56221 11.5575 5.26221C11.5575 5.12721 11.535 5.00721 11.505 4.87971L12.4425 3.94221C12.555 3.82971 12.7125 3.76221 12.8775 3.76221C13.2225 3.76221 13.5 4.03971 13.5 4.38471V10.5122H8.3625C8.1375 10.3547 7.935 10.1747 7.7475 9.97221L6.6975 8.80971C6.555 8.65221 6.375 8.52471 6.18 8.43471C5.9475 8.32221 5.6925 8.26221 5.43 8.26221C4.5 8.26971 3.75 9.01971 3.75 9.94971V10.5122H1.5V15.0122C1.5 15.8372 2.175 16.5122 3 16.5122C3 16.9247 3.3375 17.2622 3.75 17.2622H14.25C14.6625 17.2622 15 16.9247 15 16.5122C15.825 16.5122 16.5 15.8372 16.5 15.0122V10.5122H15ZM15 15.0122H3V12.0122H15V15.0122Z" fill="#A8AEE5"/>
+                                        </svg>
+                                        <p>2 Room</p>
+                                    </div>
+                                    <div class="hero-h__pin__detail"> 
+                                        <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.5 9.76221C16.5 8.93721 15.825 8.26221 15 8.26221V6.01221C15 5.18721 14.325 4.51221 13.5 4.51221H4.5C3.675 4.51221 3 5.18721 3 6.01221V8.26221C2.175 8.26221 1.5 8.93721 1.5 9.76221V13.5122H2.4975L3 15.0122H3.75L4.2525 13.5122H13.755L14.25 15.0122H15L15.5025 13.5122H16.5V9.76221ZM13.5 8.26221H9.75V6.01221H13.5V8.26221ZM4.5 6.01221H8.25V8.26221H4.5V6.01221ZM3 9.76221H15V12.0122H3V9.76221Z" fill="#A8AEE5"/>
+                                        </svg>
+                                        <p>4 Room</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img src="./assets/img/hero-map.jpg" alt="" class="hero-h__map-md" width="800" height="600">
+                </div>
+            </div>
+
+            <img src="./assets/img/hero-map.jpg" alt="" class="hero-h__map">
+
+        </section>
+        <section id="model-h" class="model-h">
+            <div class="container">
+                <div class="model-h__intro">
+                    <h2 class="model-h__intro__title" data-aos="fade-right">Upgrade Your Model.</h2>
+                    <p class="model-h__intro__desc" data-aos="fade-left">Enhance your model with pre-designed add-ons like the Base Deck and the Base Deck+. Additional items are also available through key partnerships.</p>
+                </div>
+                <div class="model-h__slider splide" data-aos="fade-up">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="model-h__item splide__slide">
+                                <img src="./assets/img/base-1.jpg" alt="img-model" class="model-h__item__img">
+                                <p class="model-h__item__loc">Pandeyan, Yogyakarta</p>
+                                <h4 class="model-h__item__title">BASE 1</h4>
+                                <div class="model-h__item__wrap-detail">
+                                    <div class="model-h__item__detail">
+                                        <p class="mod-bd">2 Bedrooms</p>
+                                        <p class="mod-ft">Pre-launch: Prices TBA</p>
+                                    </div>
+                                    <div class="model-h__item__desc">
+                                        <p>Our flagship model encompasses all the essentials. It's compact yet spacious, efficient yet adaptable.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="model-h__item splide__slide">
+                                <img src="./assets/img/base-2.jpg" alt="img-model" class="model-h__item__img">
+                                <p class="model-h__item__loc">Pandeyan, Yogyakarta</p>
+                                <h4 class="model-h__item__title">BASE 2</h4>
+                                <div class="model-h__item__wrap-detail">
+                                    <div class="model-h__item__detail">
+                                        <p class="mod-bd">2 Bedrooms</p>
+                                        <p class="mod-ft">Pre-launch: Prices TBA</p>
+                                    </div>
+                                    <div class="model-h__item__desc">
+                                        <p>Our flagship model encompasses all the essentials. It's compact yet spacious, efficient yet adaptable.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="model-h__item splide__slide">
+                                <img src="./assets/img/base-3.jpg" alt="img-model" class="model-h__item__img">
+                                <p class="model-h__item__loc">Pandeyan, Yogyakarta</p>
+                                <h4 class="model-h__item__title">BASE 3</h4>
+                                <div class="model-h__item__wrap-detail">
+                                    <div class="model-h__item__detail">
+                                        <p class="mod-bd">2 Bedrooms</p>
+                                        <p class="mod-ft">Pre-launch: Prices TBA</p>
+                                    </div>
+                                    <div class="model-h__item__desc">
+                                        <p>Our flagship model encompasses all the essentials. It's compact yet spacious, efficient yet adaptable.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="splide__arrows arrow-slider">
+                        <button class="splide__arrow splide__arrow--prev">
+                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.5 1L1.5 6L6.5 11" stroke="#354052" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
+                        </button>
+                        <button class="splide__arrow splide__arrow--next">
+                            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.5 1L1.5 6L6.5 11" stroke="#354052" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+                
+        <div class="container">
+            <div class="footer__logo" data-aos="fade-right">
+                <a href="/" class="footer__logo-link">
+                    <img src="./assets/img/logo.svg" alt="logo-footer">
+                </a>
+            </div>
+            <div class="footer__middle" data-aos="fade-down">
+                <div class="footer__middle__content"><span class="circle"></span><p class="footer__middle__text">Properly Indonesia</p></div>
+            </div>
+            <div class="footer__loc" data-aos="fade-left">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.4" d="M7.9931 1.91669H7.99994C10.0333 1.91669 12.2671 3.06555 12.954 5.55438L13.0156 5.7995C13.6599 8.64205 12.0798 11.1465 10.3427 12.9265L9.9931 13.2731L9.99115 13.2751C9.43647 13.8139 8.71904 14.0837 7.99994 14.0837C7.37127 14.0837 6.74217 13.8779 6.21771 13.4636L5.99994 13.2731C4.19316 11.5358 2.4057 8.99033 2.92084 6.07587L2.97845 5.79266C3.5824 3.13603 5.89894 1.91678 7.9931 1.91669Z" fill="#667085" stroke="#667085" stroke-width="1.5"/>
+                    <path d="M7.9996 5.52332C8.74506 5.52332 9.34998 6.12752 9.35019 6.87292C9.35019 7.61851 8.74519 8.22351 7.9996 8.22351C7.2542 8.2233 6.64999 7.61838 6.64999 6.87292C6.65021 6.12765 7.25433 5.52353 7.9996 5.52332Z" fill="#667085" stroke="#667085" stroke-width="1.5"/>
+                </svg>
+                <p class="footer__loc__text"> Yogyakarta, Bali </p>
+            </div>
+        </div>
+        <img src="./assets/img/footer-fix.jpg" alt="" class="footer__img" data-aos="fade-up">
+
+        <div class="container footer__wrap-cp">
+            <div class="footer__copyright"> Copyright ©<span class="footer__cp-y"></span> All rights reserved. Powered by : MadeIndonesia</div>
+        </div>
+    </footer>
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="./assets/vendor/javascript/aos/aos.js"></script>
+    <script src="./assets/vendor/javascript/splide/splide.min.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+</html>
